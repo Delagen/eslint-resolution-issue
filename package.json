@@ -1,0 +1,16 @@
+{
+  "name": "eslint-resolution-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "shared-config": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "cd ./node_modules/shared-config && npm i && cd ../../",
+    "test": "npm run install && node ./index.js"
+  },
+  "author": "Delagen <delagen@gmail.com> (https://delagen.blogspot.com/)",
+  "license": "ISC"
+}
